@@ -4,29 +4,29 @@ public class Riders {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Vehicle V1 =  new Vehicle();
-		Vehicle V2 =  new Vehicle();
-		V1.colour = "Black";
-		V1.name = "Bike:Kawasaki Ninja";
-		V1.speed = 400;
+		Vehicle v1 =  new Vehicle();
+		Vehicle v2 =  new Vehicle();
+		v1.colour = "Black";
+		v1.name = "Bike:Kawasaki Ninja";
+		v1.speed = 400;
 		
-		V2.colour = "Black and Blue ";
-		V2.name = "Car:Bugatti Chiron";
-		V2.speed = 480;
+		v2.colour = "Black and Blue ";
+		v2.name = "Car:Bugatti Chiron";
+		v2.speed = 480;
 		
-		System.out.println("Vehicle Name:"+ V1.name + " with color "+ V1.colour + " Has Got  Highest Speed oF:"+ V1.speed);
-		System.out.println("Vehicle Name:"+ V2.name + " with color "+ V2.colour + " Has Got  Highest Speed oF:"+ V2.speed);
+		System.out.println("Vehicle Name:"+ v1.name + " with color "+ v1.colour + " Has Got  Highest Speed oF:"+ v1.speed);
+		System.out.println("Vehicle Name:"+ v2.name + " with color "+ v2.colour + " Has Got  Highest Speed oF:"+ v2.speed);
 		
-		V1.colour = "Red";
-		V1.name = "Suzuki HayaBusa";
-		V1.speed = 500;
+		v1.colour = "Red";
+		v1.name = "Suzuki HayaBusa";
+		v1.speed = 500;
 		
-		V2.colour = "Ferrari";
-		V2.name = "Red and Black";
-		V2.speed = 390;
+		v2.colour = "Ferrari";
+		v2.name = "Red and Black";
+		v2.speed = 390;
 		
-		System.out.println("Vehicle Name:"+ V1.name + " with color "+ V1.colour + " Has Got  Highest Speed oF:"+ V1.speed);
-		System.out.println("Vehicle Name:"+ V2.name + " with color "+ V2.colour + " Has Got  Highest Speed oF:"+ V2.speed);
+		System.out.println("Vehicle Name:"+ v1.name + " with color "+ v1.colour + " Has Got  Highest Speed oF:"+ v1.speed);
+		System.out.println("Vehicle Name:"+ v2.name + " with color "+ v2.colour + " Has Got  Highest Speed oF:"+ v2.speed);
 				
 				
 
