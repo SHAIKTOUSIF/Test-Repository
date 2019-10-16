@@ -8,7 +8,7 @@ public class P1 {
 	}
 	P1()
 	{
-		System.out.println("From P1");
+		System.out.println("From P1()");
 	
 	}
 

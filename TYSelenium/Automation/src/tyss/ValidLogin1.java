@@ -1,0 +1,33 @@
+package tyss;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class ValidLogin1 {
+	static {
+		System.setProperty("webdriver.chrome.driver","./Drivers/ChromeDriver.exe");
+	}
+
+	public static void main(String[] args) throws InterruptedException {
+		WebDriver driver=new ChromeDriver();//open the Browser
+		driver.get("https://demo.actitime.com/login.do");//enter the URL
+		driver.findElement(By.name("username")).sendKeys("admin");
+		driver.findElement(By.name("pwd")).sendKeys("manager");
+		driver.findElement(By.xpath("//div[text()='Login ']")).click();
+		Thread.sleep(4000);
+		String expecttitle="actiTIME - Enter Time-Track";
+		System.out.println(expecttitle);
+		String actualtitle=driver.getTitle();
+		System.out.println(actualtitle);
+		if(actualtitle.equals(expecttitle)) {
+			driver.findElement(By.id("logoutLink")).click();
+			System.out.println("Title is displayed and Logged out");
+		}
+		else
+		{
+			System.out.println("Title is not displayed and not logged out");
+		}	
+	}
+
+}
