@@ -4,6 +4,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Gmail {
@@ -19,7 +20,17 @@ public class Gmail {
 		driver.findElement(By.id("identifierNext")).click();
 		//Thread.sleep(3000);
 		//driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
-		driver.findElement(By.name("password")).sendKeys("123df87655");
+		driver.findElement(By.name("password")).sendKeys("TousifGmail@123");
 		driver.findElement(By.id("passwordNext")).click();
+		WebElement txt = driver.findElement(By.xpath("//a[@title=\"Inbox\"]"));
+		if(txt.getText().equalsIgnoreCase("Inbox"))
+		{
+			System.out.println("Test is passed");
+		}
+		else
+		{
+			System.out.println("Test is fail");
+		}
 	}
+	
 }

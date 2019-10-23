@@ -18,7 +18,7 @@ public class Jqueryui {
 		driver.switchTo().frame(frame);
 		WebElement slider = driver.findElement(By.xpath("//body/div/span"));
 		Actions drag=new Actions(driver);
-		//drag.dragAndDropBy(slider, 80, 0).perform();
+		drag.dragAndDropBy(slider, 80, 0).perform();
 		drag.doubleClick(slider).perform();
 	}
 }

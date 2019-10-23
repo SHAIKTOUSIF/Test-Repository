@@ -18,7 +18,7 @@ public class Fbdate {
 //		Thread.sleep(2000);
 //		driver.findElement(By.xpath("//span[1]/select[1]/option[12]")).click();
 //		Thread.sleep(2000);
-//		driver.findElement(By.xpath("//rspan[1]/select[3]/option[@value='1997']")).click();
+//		driver.findElement(By.xpath("/span[1]/select[3]/option[@value='1997']")).click();
 		WebElement day=driver.findElement(By.id("day"));
 		Select s=new Select(day);
 		s.selectByIndex(12);
