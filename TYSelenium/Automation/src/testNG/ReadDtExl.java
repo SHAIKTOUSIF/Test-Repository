@@ -22,7 +22,7 @@ public class ReadDtExl {
 			for(int j=1;j<sheet.getRow(i).getFirstCellNum();j++) {
 				Cell value=sheet.getRow(i).getCell(j);
 				s[i=1][j]=value.toString();
-				Reporter.log(s[i-1][j]);
+				Reporter.log(s[i-1][j], true);
 
 			}
 		}

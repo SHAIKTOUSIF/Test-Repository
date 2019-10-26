@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="67302" started-at="2019-10-23T19:49:11 IST" finished-at="2019-10-23T19:50:18 IST">
+  <suite name="Default suite" duration-ms="52" started-at="2019-10-25T15:09:08 IST" finished-at="2019-10-25T15:09:08 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="67302" started-at="2019-10-23T19:49:11 IST" finished-at="2019-10-23T19:50:18 IST">
-      <class name="testNG.Listgmail">
-        <test-method status="PASS" signature="demoM()[pri:0, instance:testNG.Listgmail@57536d79]" name="demoM" duration-ms="67247" started-at="2019-10-23T19:49:11 IST" finished-at="2019-10-23T19:50:18 IST">
+    <test name="Default test" duration-ms="52" started-at="2019-10-25T15:09:08 IST" finished-at="2019-10-25T15:09:08 IST">
+      <class name="testNG.ConfigDemo">
+        <test-method status="PASS" signature="demo()[pri:0, instance:testNG.ConfigDemo@6c3708b3]" name="demo" duration-ms="11" started-at="2019-10-25T15:09:08 IST" finished-at="2019-10-25T15:09:08 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- demoM -->
-      </class> <!-- testNG.Listgmail -->
+        </test-method> <!-- demo -->
+      </class> <!-- testNG.ConfigDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
