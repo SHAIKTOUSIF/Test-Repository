@@ -4,5 +4,19 @@
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="jars/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="lib" path="Poi/poi/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="Poi/poi/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="Poi/poi/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="Poi/poi/curvesapi-1.04.jar"/>
+	<classpathentry kind="lib" path="Poi/poi/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="Poi/poi/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="Poi/poi/pdfbox-app-2.0.14.jar"/>
+	<classpathentry kind="lib" path="Poi/poi/poi-3.17.jar"/>
+	<classpathentry kind="lib" path="Poi/poi/poi-examples-3.17.jar"/>
+	<classpathentry kind="lib" path="Poi/poi/poi-excelant-3.17.jar"/>
+	<classpathentry kind="lib" path="Poi/poi/poi-ooxml-3.17.jar"/>
+	<classpathentry kind="lib" path="Poi/poi/poi-ooxml-schemas-3.17.jar"/>
+	<classpathentry kind="lib" path="Poi/poi/poi-scratchpad-3.17.jar"/>
+	<classpathentry kind="lib" path="Poi/poi/xmlbeans-2.6.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
