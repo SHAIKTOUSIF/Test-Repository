@@ -12,10 +12,9 @@ public class TestValidLogin extends BaseTest{
 	@Test
 	public static void validLogin() throws EncryptedDocumentException, InvalidFormatException
 	{
-	String un = Excel.getData(XL_PATH,SHEET_NAME,2,0);
-	String pwd = Excel.getData(XL_PATH,SHEET_NAME,2,1);
-	String title= Excel.getData(XL_PATH,SHEET_NAME,2,2);
-	Excel.storeValue(XL_PATH, SHEET_NAME, 0, 3, "Status");
+	String un = Excel.getData(XL_PATH,SHEET_NAME,2,1);
+	String pwd = Excel.getData(XL_PATH,SHEET_NAME,2,2);
+	String title= Excel.getData(XL_PATH,SHEET_NAME,2,3);
 	LoginPage lp = new LoginPage(driver);
 	lp.inputUN(un);
 	lp.inputPWD(pwd);

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[HomePage is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[validLoginis pass]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="39602" started-at="2019-10-30T14:50:25 IST" finished-at="2019-10-30T14:51:05 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="39602" started-at="2019-10-30T14:50:25 IST" finished-at="2019-10-30T14:51:05 IST">
+      <class name="testpom.TestValidLogin">
+        <test-method status="PASS" signature="beforeM()[pri:0, instance:testpom.TestValidLogin@23e028a9]" name="beforeM" is-config="true" duration-ms="22625" started-at="2019-10-30T14:50:25 IST" finished-at="2019-10-30T14:50:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeM -->
+        <test-method status="PASS" signature="validLogin()[pri:0, instance:testpom.TestValidLogin@23e028a9]" name="validLogin" duration-ms="15537" started-at="2019-10-30T14:50:48 IST" finished-at="2019-10-30T14:51:03 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[HomePage is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method status="PASS" signature="afterM(org.testng.ITestResult)[pri:0, instance:testpom.TestValidLogin@23e028a9]" name="afterM" is-config="true" duration-ms="1363" started-at="2019-10-30T14:51:03 IST" finished-at="2019-10-30T14:51:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLogin status=SUCCESS method=TestValidLogin.validLogin()[pri:0, instance:testpom.TestValidLogin@23e028a9] output=HomePage is Displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[validLoginis pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterM -->
+      </class> <!-- testpom.TestValidLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

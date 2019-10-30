@@ -25,17 +25,17 @@ public class EnterTimeTrack implements IAutoConst{
 			WebDriverWait ww = new WebDriverWait(driver, ETO);
 			ww.until(ExpectedConditions.titleContains(title));
 			Reporter.log("HomePage is Displayed",true);
-			Excel.setStatus(XL_PATH, SHEET_NAME, 2, 3, "Pass");
+			//Excel.setStatus(XL_PATH, SHEET_NAME, 2, 3, "Pass");
 		}
 		catch(Exception e)
 		{
 			Reporter.log("Home Page is not displayed",true);
-			try {
-				ScreenShot.getScreenShot(driver, title);
-				Excel.setStatus(XL_PATH, SHEET_NAME, 2, 3, "Fail");	
-			} catch (IOException e1) {
-				e1.printStackTrace();
-			}
+//			try {
+//				ScreenShot.getScreenShot(driver, title);
+				//Excel.setStatus(XL_PATH, SHEET_NAME, 2, 3, "Fail");	
+//			} catch (IOException e1) {
+//				e1.printStackTrace();
+			//}
 			Assert.fail();
 		}
 	}
