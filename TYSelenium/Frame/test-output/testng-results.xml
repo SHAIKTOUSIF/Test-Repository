@@ -8,23 +8,23 @@
       <![CDATA[validLoginis pass]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="39602" started-at="2019-10-30T14:50:25 IST" finished-at="2019-10-30T14:51:05 IST">
+  <suite name="Default suite" duration-ms="53585" started-at="2019-10-30T19:57:36 IST" finished-at="2019-10-30T19:58:29 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="39602" started-at="2019-10-30T14:50:25 IST" finished-at="2019-10-30T14:51:05 IST">
+    <test name="Default test" duration-ms="53585" started-at="2019-10-30T19:57:36 IST" finished-at="2019-10-30T19:58:29 IST">
       <class name="testpom.TestValidLogin">
-        <test-method status="PASS" signature="beforeM()[pri:0, instance:testpom.TestValidLogin@23e028a9]" name="beforeM" is-config="true" duration-ms="22625" started-at="2019-10-30T14:50:25 IST" finished-at="2019-10-30T14:50:48 IST">
+        <test-method status="PASS" signature="beforeM()[pri:0, instance:testpom.TestValidLogin@23e028a9]" name="beforeM" is-config="true" duration-ms="42898" started-at="2019-10-30T19:57:36 IST" finished-at="2019-10-30T19:58:18 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeM -->
-        <test-method status="PASS" signature="validLogin()[pri:0, instance:testpom.TestValidLogin@23e028a9]" name="validLogin" duration-ms="15537" started-at="2019-10-30T14:50:48 IST" finished-at="2019-10-30T14:51:03 IST">
+        <test-method status="PASS" signature="validLogin()[pri:0, instance:testpom.TestValidLogin@23e028a9]" name="validLogin" duration-ms="8506" started-at="2019-10-30T19:58:18 IST" finished-at="2019-10-30T19:58:27 IST">
           <reporter-output>
             <line>
               <![CDATA[HomePage is Displayed]]>
             </line>
           </reporter-output>
         </test-method> <!-- validLogin -->
-        <test-method status="PASS" signature="afterM(org.testng.ITestResult)[pri:0, instance:testpom.TestValidLogin@23e028a9]" name="afterM" is-config="true" duration-ms="1363" started-at="2019-10-30T14:51:03 IST" finished-at="2019-10-30T14:51:05 IST">
+        <test-method status="PASS" signature="afterM(org.testng.ITestResult)[pri:0, instance:testpom.TestValidLogin@23e028a9]" name="afterM" is-config="true" duration-ms="2131" started-at="2019-10-30T19:58:27 IST" finished-at="2019-10-30T19:58:29 IST">
           <params>
             <param index="0">
               <value>
