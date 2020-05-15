@@ -24,7 +24,7 @@ public class Dropable {
 		WebElement slider = driver.findElement(By.id("draggable"));
 		Actions drag=new Actions(driver);
 		drag.dragAndDropBy(slider, 180, 60).perform();
-		drag.doubleClick(slider).perform();
+		//drag.doubleClick(slider).perform();
 		
 		boolean b =driver.findElement(By.id("droppable")).isDisplayed();
 		if (b)

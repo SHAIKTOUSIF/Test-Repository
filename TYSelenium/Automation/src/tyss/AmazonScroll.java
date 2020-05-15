@@ -27,7 +27,7 @@ public class AmazonScroll {
 
 	public static void main(String[] args) throws InterruptedException, IOException {
 		WebDriver driver = new ChromeDriver();
-		// driver.manage().window().maximize();
+		driver.manage().window().maximize();
 		driver.get("https://amazon.in/");
 		AmazonScroll.screenShot(driver, "AShot1");
 		JavascriptExecutor js = (JavascriptExecutor) driver;// JS casting
